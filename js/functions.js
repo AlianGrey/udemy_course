@@ -25,7 +25,7 @@ function getMathResult(num, count) {
         if (i === count) {
             return str += num * i;
         }
-        str += num * i + '--';
+        str += num * i + '---';
     }
 }
 console.log(getMathResult(3, 10));
